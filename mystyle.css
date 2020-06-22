@@ -102,6 +102,110 @@
 		grid-row-start: 4; 
 		grid-row-end: 4;
 		border-bottom: 1px solid grey;
+body {
+	margin: auto;
+	width: 50%;
+	font-family: Calibri, "Quattrocento Sans";
+	}
+	
+
+	header {
+		margin: auto;
+		text-align: center;
+	}
+	
+	h1 {
+	font-family: "Quattrocento Sans";
+	font-size: 5vw;/**500%;**/
+	margin: 50px 5px 5px 5px;
+	font-variant: small-caps;
+	}
+	
+	h2 {
+	font-family: "Quattrocento Sans";
+	font-size: 2.5vw;/**250%;**/
+	margin: 5px 5px 5px 5px;
+	font-variant: small-caps;
+	}
+	
+	h3 {
+	font-family: "Quattrocento Sans";
+	font-size: 2vw;/**200%;**/
+	font-weight: bold;
+	margin: 5px 5px 5px 5px;
+	font-variant: small-caps;
+	}
+	
+	p, ul, li {
+	font-size: 1vw;/**100%;**/
+	}
+	
+	
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat (10, 1fr);
+		grid-auto-rows: minmax(50px, auto);
+	
+	}
+
+	.grid-container > div {
+		background-color: rgba(255, 255, 255, 0);
+		padding: 15px;
+		
+	}
+
+	
+	.item1 {
+		grid-column-start: 1; 
+		grid-column-end: 5; 
+		grid-row-start: 1; 
+		grid-row-end: 1; 
+		border-bottom: 1px solid grey;
+		border-top: 1px solid grey;
+		border-right: 1px solid grey;
+		text-align: justify;
+	}
+	
+	.item2 {
+		grid-column-start: 5; 
+		grid-column-end: 10; 
+		grid-row-start: 1; 
+		grid-row-end: 1; 
+		border-bottom: 1px solid grey;
+		border-top: 1px solid grey;
+		text-align: justify;
+	}
+	.item3 {
+		grid-column-start: 2; 
+		grid-column-end: 10; 
+		grid-row-start: 2; 
+		grid-row-end: 9; 
+		border-left: 1px solid grey;
+		text-align: left;
+	}
+	.item4 {
+		grid-column-start: 1; 
+		grid-column-end: 1; 
+		grid-row-start: 2; 
+		grid-row-end: 2;
+		border-bottom: 1px solid grey;
+		text-align: right;
+	}
+	
+	.item5 {
+		grid-column-start: 1; 
+		grid-column-end: 1; 
+		grid-row-start: 3; 
+		grid-row-end: 3;
+		border-bottom: 1px solid grey;
+		text-align: right;
+	}
+	.item6 {
+		grid-column-start: 1; 
+		grid-column-end: 1; 
+		grid-row-start: 4; 
+		grid-row-end: 4;
+		border-bottom: 1px solid grey;
 		text-align: right;
 	}
 	.item7 {
