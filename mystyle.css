@@ -6,34 +6,34 @@
 	
 
 	header {
-	margin: auto;
-	text-align: center;
+		margin: auto;
+		text-align: center;
 	}
 	
 	h1 {
 	font-family: "Quattrocento Sans";
-	font-size: 5vw;
+	font-size: 5vw;/**500%;**/
 	margin: 50px 5px 5px 5px;
 	font-variant: small-caps;
 	}
 	
 	h2 {
 	font-family: "Quattrocento Sans";
-	font-size: 2.5vw;
+	font-size: 2.5vw;/**250%;**/
 	margin: 5px 5px 5px 5px;
 	font-variant: small-caps;
 	}
 	
 	h3 {
 	font-family: "Quattrocento Sans";
-	font-size: 2vw;
+	font-size: 2vw;/**200%;**/
 	font-weight: bold;
 	margin: 5px 5px 5px 5px;
 	font-variant: small-caps;
 	}
 	
 	p, ul, li {
-	font-size: 1vw;
+	font-size: 1vw;/**100%;**/
 	}
 	
 	
